@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.sphere {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Forma circular */
+    background-color: #3498db; /* Cor inicial */
+    transition: background-color 0.3s; /* Suaviza a transição de cor */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
